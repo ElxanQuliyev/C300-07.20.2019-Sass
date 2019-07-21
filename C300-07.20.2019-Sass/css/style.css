@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header .menu {
+  font-size: 0.8em;
+}
+header .menu .nav {
+  display: flex;
+  list-style: none;
+}
+header .menu .nav li {
+  padding: 15px;
+}
+header .search {
+  padding: 30px 15px;
+  width: 30%;
+}
+header .search input {
+  width: 100%;
+  background: #ddd;
+  border: none;
+  border-radius: 15px;
+  padding: 14px 25px;
+}
+header .checkout {
+  padding: 30px 15px;
+  width: 20%;
+  text-align: right;
+}
+header .logo {
+  width: 50%;
+  text-align: center;
+}
+header .social .nav {
+  display: flex;
+  list-style: none;
+}
+header .social .nav li {
+  padding: 10px;
+  cursor: pointer;
+}
+header .social .dropMenu {
+  position: relative;
+}
+header .social .dropMenu:hover .dropdown {
+  display: block;
+}
+header .social .dropMenu .dropdown {
+  position: absolute;
+  width: 150px;
+  top: 100%;
+  background: #ddd;
+  display: none;
+  list-style: none;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+}
+header .social .dropMenu .dropdown li {
+  color: orange;
+}
+header .social .dropMenu .dropdown li:hover {
+  color: crimson;
+  background: white;
+}
+header .social .dropMenu .dropdown img {
+  margin-right: 5px;
+}
+
+.container {
+  width: 960px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+#comingsoon {
+  background: rebeccapurple;
+  height: 800px;
+}
+#comingsoon .middle {
+  display: flex;
+  width: 960px;
+  margin: auto;
+  justify-content: center;
+}
+#comingsoon .middle .commingimg {
+  position: relative;
+  width: 50%;
+}
+#comingsoon .middle .commingtext {
+  width: 50%;
+}
+#comingsoon .middle .commingtext h1 {
+  font-size: 80px;
+  line-height: 80px;
+  padding: 14rem 0;
+  color: #fff;
+}
+#comingsoon .middle img {
+  position: absolute;
+  top: 0;
+}
+
+/*# sourceMappingURL=style.css.map */

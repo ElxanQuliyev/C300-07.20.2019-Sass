@@ -1,0 +1,72 @@
+header{
+    .menu{
+        font-size: 0.8em;
+        .nav{
+            display: flex;
+            list-style: none;
+            li{
+                padding: 15px
+            }
+        }
+    }
+    .search{
+        padding: 30px 15px;
+        width:30%;
+        input{
+            width: 100%;
+            background: #ddd;
+            border: none;
+            border-radius: 15px;
+            padding: 14px 25px;
+        }
+    }
+    .checkout{
+        padding: 30px 15px;
+       width: 20%;
+       text-align: right
+        
+    }
+    .logo{
+        width: 50%;
+        text-align: center
+    }
+    .social{
+        .nav{
+            display: flex;
+            list-style: none;
+            li{
+                padding: 10px;
+                cursor: pointer;
+            }
+        }
+        .dropMenu{
+            position: relative;
+            &:hover{
+                 .dropdown{
+                     display: block
+                 }   
+            }
+        .dropdown{
+            position: absolute;
+            width: 150px;
+            top:100%;
+            background: $mainColor;
+            display: none;
+            list-style: none;
+            border-radius: 8px;
+            box-shadow: 0 0 5px rgba(0,0,0,.4);
+            li{
+                color:orange;
+                &:hover{
+                    color:$twoColor;
+                    background: white;
+                }
+            }
+                img{
+                    margin-right: 5px;
+
+                }
+        }
+        }
+    }
+}
